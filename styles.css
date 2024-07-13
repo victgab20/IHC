@@ -1,0 +1,81 @@
+@import url('https://fonts.cdnfonts.com/css/ghibli');
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-image: url('assets/background-image.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    width: fit-content;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, rgba(174, 181, 186, 0.6) 50%, rgba(179, 127, 128, 0.8) 50%);
+}
+.content{
+    font-weight: 600;
+    font-family: 'Ghibli', sans-serif;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 30px;
+}
+.content-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 400px;
+}
+.content-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 70px;
+}
+.about{
+    width: 50%;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.content-about{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    word-wrap: break-word;
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+.btn-trailer{
+    cursor: pointer;
+    padding: 7px;
+    border: solid rgba(179, 127, 128, 0.8);
+    text-decoration: none;
+}
+.btn-imdb{
+    cursor: pointer;
+    padding: 7px;
+    text-decoration: none;
+    border: solid rgba(179, 127, 128, 0.8);
+}
+.img-person{
+    position: absolute;
+    width: 250px;
+    top: 28%;
+    left: 40%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
